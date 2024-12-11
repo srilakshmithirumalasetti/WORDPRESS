@@ -2,7 +2,7 @@ resource "aws_instance" "my_instance" {
   ami                   ="ami-08eec49a05b603ba3"
   instance_type          = "t2.micro"
   count                  = 1
-  key_name               = "sri"
+  key_name               = "prasanna"
   associate_public_ip_address = true
   user_data              = file("data.sh")
   tags = {
