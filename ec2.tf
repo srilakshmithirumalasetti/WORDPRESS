@@ -10,8 +10,8 @@ resource "aws_instance" "my_instance" {
   }
 }
 
-resource "aws_security_group" "demosg" {
-  name        = "demosg"
+resource "aws_security_group" "demosg1" {
+  name        = "demosg1"
   description = "Security group for WordPress and MySQL"
 
   ingress {
