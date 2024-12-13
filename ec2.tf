@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"  
 }
 resource "aws_instance" "my_instance" {
-  ami                   ="ami-08eec49a05b603ba3"
+  ami                   ="ami-0453ec754f44f9a4a"
   instance_type          = "t2.micro"
   count                  = 1
   key_name               = "prasanna"
