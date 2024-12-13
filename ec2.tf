@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "us-east-1"  
+}
 resource "aws_instance" "my_instance" {
   ami                   ="ami-08eec49a05b603ba3"
   instance_type          = "t2.micro"
