@@ -2,10 +2,10 @@ provider "aws" {
   region = "us-east-1"  
 }
 resource "aws_instance" "my_instance" {
-  ami                   ="ami-0166fe664262f664c"
+  ami                   ="ami-0ca9fb66e076a6e32"
   instance_type          = "t2.micro"
   count                  = 1
-  key_name               = "prasanna"
+  key_name               = "pinku"
   associate_public_ip_address = true
   user_data              = file("data.sh")
   tags = {
